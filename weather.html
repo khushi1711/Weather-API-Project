@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Weather</title>
+  <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Merriweather:ital,wght@1,300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+  <script type="text/javascript" src="script.js"></script>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Paryatan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarScroll">
+        <ul class="navbar-nav ml-auto mb-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#Varanasi">Varanasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Ayodhya">Ayodhya</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Agra">Agra</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Lucknow">Lucknow</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div class="mainPage">
+    <div class="heading">
+      <p>Welcome to <span class="state"> Uttar Pradesh</span></p>
+    </div>
+  </div>
+  <div class="about">
+    <h1>Uttar Pradesh</h1>
+    <p>Uttar Pradesh ranks first in domestic tourist arrivals among all states of India with more than 71 million, owing to its rich and varied topography, vibrant culture, festivals, monuments, ancient places of worship, and viharas. Uttar Pradesh
+      is also home to three World Heritage Sites: the <em> Taj Mahal</em>, <em>Agra Fort</em>, and the nearby <em>Fatehpur Sikri</em>.
+      Uttar Pradesh is a favoured tourist destination in India due to the location of Taj Mahal, nearly 69 lakhs (6.9 million) people visited the Taj Mahal in 2018–19, up 6% from the previous year when the number stood at 64 lakhs (6.4 million). The
+      monument earned almost ₹78 crore (US$11 million) in ticket sales in 2018–19.<br>
+      Religious tourism plays significant role in Uttar Pradesh tourism as the state has some of the holiest Hindu shrines.<em>Varanasi</em> a major religious hub, is the holiest of the seven sacred cities (Sapta Puri) in Hinduism and Jainism.
+      Domestic tourist most commonly visit for religious purposes while foreign tourist visit for ghats along river Ganges.<em>Vrindavan</em> is considered to be a holy place for Vaisnavism.
+      Owing to the belief as the birthplace of Rama,<em>Ayodhya (Awadh)</em> has been regarded as one of the seven most important pilgrimage sites.<em>Dwarka</em> is one of the Chardhams, four sacred Hindu pilgrimage sites.
+      Millions gather at Allahabad to take part in the Magh Mela festival on the banks of the Ganges.This festival is organised on a larger scale every 12th year and is called the Kumbh Mela, where over 10 million Hindu pilgrims congregate in one of
+      the largest gatherings of people in the world. Vindhyachal is a Hindu pilgrimage site having the temple of Vindhyavasini.</p>
+  </div>
+  <h2>Famous cities & destinations</h2>
+  <div class="city about" id="Agra">
+
+    <h3>Agra</h3>
+    <p>Agra Fort is a historical fort in the city of Agra in India. It was the main residence of the emperors of the Mughal Dynasty
+       till 1638, when the capital was shifted from Agra to Delhi. The Agra fort is a UNESCO World Heritage site.
+       It is about 2.5 km northwest of its more famous sister monument, the Taj Mahal.
+       The fort can be more accurately described as a walled city.</p>
+       <p>Dont forget to try petha when you visit.😋😋</p>
+       <br>
+       <div class="weather-container" value="Agra">
+         <img class="icon1">
+
+         <p class="weather1"></p>
+         <p class="temp1"></p>
+       </div>
+
+    <div class="photo">
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="https://www.google.com/maps/place/Taj+Mahal/@27.1751448,78.0399535,17z/data=!3m1!4b1!4m5!3m4!1s0x39747121d702ff6d:0xdd2ae4803f767dde!8m2!3d27.1751448!4d78.0421422">
+          <img src="https://www.planetware.com/wpimages/2019/09/india-agra-top-attractions-taj-mahal.jpg" alt="Taj Mahal" width="600" height="400">
+        </a>
+        <div class="desc">Taj Mahal</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="https://www.google.com/maps/place/Agra+Fort/@27.1795328,78.0189233,17z/data=!3m1!4b1!4m5!3m4!1s0x397470d491343beb:0x640a5ccc94029576!8m2!3d27.1795328!4d78.021112">
+          <img src="https://www.planetware.com/wpimages/2019/09/india-agra-top-attractions-agra-fort.jpg" alt="Agra Fort" width="600" height="400">
+        </a>
+        <div class="desc">Agra Fort</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="https://www.google.com/maps/place/Fatehpur+Sikri,+Uttar+Pradesh+283110/@27.0944327,77.6560319,14z/data=!3m1!4b1!4m5!3m4!1s0x397391584a53798d:0x893d46790c1fb40!8m2!3d27.0945291!4d77.6679292">
+          <img src="https://www.planetware.com/wpimages/2019/09/india-agra-top-attractions-fatehpur-sikri.jpg" alt="Fatehpur Sikri" width="600" height="400">
+        </a>
+        <div class="desc">Fatehpur Sikri</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="https://www.google.com/maps/place/Itmad-ud-Daula/@27.1928873,78.0287921,17z/data=!3m1!4b1!4m5!3m4!1s0x397470c5fd99a693:0x13f63c6b9f4ac458!8m2!3d27.1928743!4d78.0310382">
+          <img src="https://www.planetware.com/wpimages/2019/09/india-agra-top-attractions-itimad-daulahs-tomb.jpg" alt="Itimad-ud-Daulah's Tomb" width="600" height="400">
+        </a>
+        <div class="desc">Itimad-ud-Daulah's Tomb</div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <br>
+
+
+  <div class="city about" id="Ayodhya">
+  <h3>Ayodhya</h3>
+  <p>Ayodhya is widely regarded as the birthplace of Lord Rama, is a place that attracts pilgrims from far and wide to seek divine blessings.
+     The pious city, located in the state of Uttar Pradesh, boasts of a range of tourist attractions that are scattered all over the place.
+     Most of these are religious attractions and have some interesting history associated with them and you would be surely enchanted once you come to know of them.</p>
+
+  <p>Ayodhya, located on the banks of the Sarayu River, is regarded as one of the most sacred places to visit in India by the Hindu community. It is famed for its historical and mythological stories, beautiful temples, legends surrounding the Hindu epic Ramayana and Vishnu and much more</p>
+
+  <div class="weather-container">
+    <img class="icon2">
+    <p class="weather2"></p>
+    <p class="temp2"></p>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?msa=0&ie=UTF8&t=m&ll=26.796564066645843%2C82.19318295002941&spn=0.015323%2C0.043173&z=15&source=embed&mid=1eLJWxkfofztYQLoaeT4K8soHVO4">
+        <img src="https://www.holidify.com/images/cmsuploads/compressed/650px-V0qbaoio_ayodhya-ram-temple-proposed-design_625x300_23_July_20.webp_20200805134302.png" alt="Ram Janma Bhumi" width="600" height="400">
+      </a>
+      <div class="desc">Ram Janma Bhumi</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.google.com/maps/place/Hanuman+Garhi+Mandir/@26.7962848,82.1985303,17z/data=!3m1!4b1!4m5!3m4!1s0x399a0792dbf96a15:0x68c9050f72e31d9d!8m2!3d26.7962848!4d82.200719">
+        <img src="https://cdn.s3waas.gov.in/s3b2eb7349035754953b57a32e2841bda5/uploads/2018/04/2018041790-1.jpg" alt="Hanuman Garhi" width="600" height="400">
+      </a>
+      <div class="desc">Hanuman Garhi
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.google.com/maps/place/Kanak+Bhawan/@26.7989659,82.1979234,17z/data=!4m11!1m5!8m4!1e2!2s106300772555043148942!3m1!1e1!3m4!1s0x399a07b9c7d40cc1:0x9491c1265f1c6a15!8m2!3d26.7979806!4d82.1992031">
+        <img src="https://cdn.s3waas.gov.in/s3b2eb7349035754953b57a32e2841bda5/uploads/2018/04/2018041783.jpg" alt="Kanak Bhawan" width="600" height="400">
+      </a>
+      <div class="desc">Kanak Bhawan</div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank"
+        href="https://www.google.com/maps/place/Imambada+Gulab+Bari/@26.7797887,82.1573459,21z/data=!4m12!1m6!3m5!1s0x399a063b2b30ada9:0x51cc9eab59a0f346!2sImambada+Gulab+Bari!8m2!3d26.7798857!4d82.1575316!3m4!1s0x399a063b2b30ada9:0x51cc9eab59a0f346!8m2!3d26.7798857!4d82.1575316">
+        <img src="https://cdn.s3waas.gov.in/s3b2eb7349035754953b57a32e2841bda5/uploads/2018/04/2018041755.jpg" alt="Gulab Bari" width="600" height="390">
+      </a>
+      <div class="desc">Gulab Bari main tower</div>
+    </div>
+  </div>
+</div>
+  <br>
+
+<div class="city about" id="Lucknow">
+
+  <h3>Lucknow</h3>
+  <p>Though the city doesn’t have many glitzy malls, shopping in Lucknow can be a memorable experience thanks to its vibrant markets and rich crafts traditions. The city is quite famous for its traditional chikan embroidery work, which attracts travellers from all across the country. The places to shop in Lucknow include the city’s markets, with their narrow old lanes and countless shops, where shopping itself has its own charm. Apart from chikan work, the royal city is also renowned for its exquisite jewellery pieces and ittar (perfume). A visit to Lucknow’s most famous shopping hubs such as Aminabad, Janpath, Chowk, Gadbadjhala and Alambagh, is guaranteed to be a memorable experience in more ways than one. The good thing about the shopping places in Lucknow is that all of these places together offer a wide variety of stuff to buy for the visitors. So, the shopaholic traveller can actually expect to get anything in this place, right from clothes to embroidery to jewellery to books. In short, the city of Lucknow is no less than a paradise for those who like shopping</p>
+  <div class="weather-container">
+    <img class="icon3">
+    <p class="weather3"></p>
+    <p class="temp3"></p>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?msa=0&ie=UTF8&t=m&ll=26.796564066645843%2C82.19318295002941&spn=0.015323%2C0.043173&z=15&source=embed&mid=1eLJWxkfofztYQLoaeT4K8soHVO4">
+        <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Husainabad-Clock-Tower.jpg" alt="Husainabad Clock Tower" width="600" height="400">
+      </a>
+      <div class="desc">Husainabad Clock Tower</div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.google.com/maps/place/Rumi+Darwaza/@26.8800091,80.8877542,17z/data=!3m1!4b1!4m5!3m4!1s0x399bfdf0522e588b:0xb2370b12db96ece3!8m2!3d26.8800091!4d80.8899429">
+        <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/03/1000x650-7.jpg" alt="Rumi Darwaza" width="600" height="400">
+      </a>
+      <div class="desc">Rumi Darwaza</div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.google.com/maps/place/Indira+Gandhi+Planetarium/@26.8650109,80.9214356,17z/data=!3m1!4b1!4m5!3m4!1s0x399bfd939e940179:0x9ec6d69e8e847be0!8m2!3d26.8650633!4d80.9234557">
+        <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/03/1000x650-9.jpg" alt="Indira Gandhi Planetarium" width="600" height="400">
+      </a>
+      <div class="desc">Indira Gandhi Planetarium</div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.google.com/maps/place/Ambedkar+Memorial+Park/@26.8485725,80.9752293,15z/data=!4m2!3m1!1s0x0:0x62a8e15e3b7c7c1d?sa=X&ved=2ahUKEwjN9r_z46vzAhXRgtgFHSjkDagQ_BJ6BAhvEAU">
+        <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/03/1000x650-10.jpg" alt="Ambedkar Memorial Park" width="600" height="400">
+      </a>
+      <div class="desc">Ambedkar Memorial Park</div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="city about" id="Varanasi">
+
+  <h3>Varanasi</h3>
+  <p>ying in the south of Uttar Pradesh, on the banks of the holy River Ganga, breathes Varanasi, which is believed  to be the  the oldest living city in the world. For centuries, the mystic of this place has been attracting pilgrims from across India as well as abroad.
+     A dwelling of ancient domes, muths, ashrams, priests, narrow lanes with shops filled with Benaresi sarees, Varanasi represents the colorful and fascinating India of your dreams.
+     With intimate rituals of life and death being parallelly performed on the Ghats, you’ll find it exhilarating to explore the religious geography of this city. Walk through the busy alleyways or watch the sunrise from a boat for an unforgettable experience. Trace the perimeter of the city, paying homage to shrines all the way. Who knows, a journey to this City of Light may turn out to be your favorite stop of all.</p>
+     <div class="weather-container">
+       <img class="icon4">
+       <p class="weather4"></p>
+       <p class="temp4"></p>
+     </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?msa=0&ie=UTF8&t=m&ll=26.796564066645843%2C82.19318295002941&spn=0.015323%2C0.043173&z=15&source=embed&mid=1eLJWxkfofztYQLoaeT4K8soHVO4">
+        <img src="https://www.planetware.com/wpimages/2020/02/india-varanasi-best-places-to-visit-ganges-river.jpg" alt="Ganga ghat" width="600" height="400">
+      </a>
+      <div class="desc">Ganga Ghat</div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.google.com/maps/place/Rumi+Darwaza/@26.8800091,80.8877542,17z/data=!3m1!4b1!4m5!3m4!1s0x399bfdf0522e588b:0xb2370b12db96ece3!8m2!3d26.8800091!4d80.8899429">
+        <img src="https://www.planetware.com/wpimages/2020/02/india-varanasi-best-places-to-visit-shri-kashi-vishwanath-temple.jpg" alt="Kashi Vishwanat" width="600" height="400">
+      </a>
+      <div class="desc">Kashi Vishwanath</div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.google.com/maps/place/Indira+Gandhi+Planetarium/@26.8650109,80.9214356,17z/data=!3m1!4b1!4m5!3m4!1s0x399bfd939e940179:0x9ec6d69e8e847be0!8m2!3d26.8650633!4d80.9234557">
+        <img src="https://lilhaeducationcentre.in/wp-content/uploads/2020/01/bhu-entrance-lilhaeducationcentre.jpg" alt="BHU" width="600" height="400">
+      </a>
+      <div class="desc">Banaras Hindu University (BHU)</div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.google.com/maps/place/Ambedkar+Memorial+Park/@26.8485725,80.9752293,15z/data=!4m2!3m1!1s0x0:0x62a8e15e3b7c7c1d?sa=X&ved=2ahUKEwjN9r_z46vzAhXRgtgFHSjkDagQ_BJ6BAhvEAU">
+        <img src="https://www.planetware.com/wpimages/2020/02/india-varanasi-best-places-to-visit-dhamek-stupa.jpg" alt="Sarnath" width="600" height="400">
+      </a>
+      <div class="desc">Sarnath</div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
